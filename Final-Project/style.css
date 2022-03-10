@@ -44,15 +44,15 @@ main {
     float: right;
 }
 
-.side-bar {
+/* .side-bar {
     height: calc(90% - 10px);
     width: 25%;
     background-color:lightcoral;
     margin-bottom: 10px;
-}
-iframe {
+} */
+/* iframe {
     width: 180px;
-}
+} */
 footer {
     height: 30px;
     width: 100%;
