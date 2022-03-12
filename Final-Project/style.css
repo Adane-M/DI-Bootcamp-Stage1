@@ -1,6 +1,5 @@
 body {
     font-weight: bold;
-    /* font-family: "Schoolbell", Courier, monospace; */
     font-family: "Chalkduster", "Trattatello";
     background-color: black;
     color: white;
@@ -10,35 +9,48 @@ body {
 header {
     background-image: url("https://cdn.britannica.com/02/162002-050-02512608/Tupac-Shakur-1993.jpg");
     background-size: 100% 100%;
+
     margin-bottom: 3px;
     height: 250px;
-}
-
-.links a {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 1.2em;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    padding: 30px;
-    margin-bottom: 50px;
-}
-a:hover {
-    color: white;
-    font-size: 1.3em;
 }
 
 .contactUs {
     text-align: left;
 }
 
-.main {
-    text-align: center;
+article {
+    /* columns: 3;
+    column-gap: 10px; */
 }
 
-iframe {
-    width: 580px;
-}
 footer {
     width: 100%;
     padding: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+li {
+    list-style: none;
+}
+li a {
+    display: inline-block;
+    color: blueviolet;
+    font-size: 40px;
+    margin-left: 20px;
+    transform: scale(0.5);
+    transition: 0.3s;
+}
+li a:hover {
+    color: white;
+    transform: scale(0.5) translateY(-15px);
+}
+
+.social li a {
+    filter: invert();
+    
 }
