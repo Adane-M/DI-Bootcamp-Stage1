@@ -22,9 +22,13 @@ article {
     border-radius: 20px;
     font-size: x-large;
     height: 200px;
-    overflow-y: scroll;
-    scroll-behavior: hidden;
+    overflow: auto;
 }
+article::-webkit-scrollbar {
+    display: none;
+}
+
+
 .social {
     width: 100px;
 }
@@ -64,9 +68,15 @@ button {
     width: 200px;
     height: 200px;
     font-size: 40px;
-    background-color: rgb(218, 212, 212)02);
+    background-color: lightgray;
     border-radius: 30px;
+    border: none;
     margin: 10px;
+    filter: invert(1);
+}
+button:hover {
+    background-color: lightcyan;
+    cursor: pointer;
 }
 
 footer {
